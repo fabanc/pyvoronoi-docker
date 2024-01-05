@@ -1,5 +1,4 @@
-FROM python:3.8-slim
-
+FROM python:3.11.7-bookworm
 
 RUN apt update
 RUN apt install build-essential -y
